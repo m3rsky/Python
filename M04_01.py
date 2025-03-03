@@ -2,7 +2,7 @@ import requests
 import sys
 import dateutil.parser
 from datetime import datetime
-
+# KURSY WALUT
 
 def get_currency_value(currency, date):
     url = f'https://api.nbp.pl/api/exchangerates/rates/a/{currency}/{date}/?format=json'
